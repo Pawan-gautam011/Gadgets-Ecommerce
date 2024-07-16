@@ -1,7 +1,7 @@
-import React from 'react'
 import {IoMdSearch} from "react-icons/io"
 import { FaShoppingCart } from "react-icons/fa";
-import DarkMode from '../DarkMode';
+import DarkMode from "./DarkMode";
+
 
 const MenuLinks =[
     {
@@ -81,7 +81,7 @@ className='text-xl text-gray-600 dark:text-gray-400'
 
     {/* Dark mode */}
 
-    <DarkMode/>                        
+                  <DarkMode/>         
 
 </div>
 </div>
