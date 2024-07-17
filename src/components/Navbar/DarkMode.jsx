@@ -23,7 +23,9 @@ const DarkMode = () => {
     return (
         <div className="flex items-center">
             {/* Assuming you have a cart button here */}
-            <button className="cart-button">Cart</button>
+            <button className="cart-button">
+
+            </button>
             <img 
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                 src={theme === 'dark' ? DarkButton : LightButton} 
