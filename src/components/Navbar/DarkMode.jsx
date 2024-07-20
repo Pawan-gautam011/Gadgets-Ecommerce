@@ -22,7 +22,7 @@ const DarkMode = () => {
 
     return (
         <div className="flex items-center">
-            {/* Assuming you have a cart button here */}
+      
             <button className="cart-button">
 
             </button>
