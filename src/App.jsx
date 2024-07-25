@@ -6,6 +6,7 @@ import Services from "./components/Services/Services"
 import Banner from "./components/Banner/Banner"
 import headphone from "./assets/hero/headphone.png"
 import Products from "./components/Products/Products"
+import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png"
 
 const BannerData  = {
   discount:"30% OFF",
@@ -16,6 +17,16 @@ const BannerData  = {
   title3:"Winter Sale",
   title4:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos?",
   bgColor:"#ca0b0b",
+};
+const BannerData2  = {
+  discount:"30% OFF",
+  title:"Fine Smile",
+  date:"10 Jan to 28 Jan",
+  image:smartwatch2,
+  title2:"Air Solo Bass",
+  title3:"Winter Sale",
+  title4:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos?",
+  bgColor:"#2dcc6f",
 };
 
 function App() {
@@ -29,6 +40,7 @@ function App() {
     <Services/>
     <Banner data ={BannerData}/>
     <Products/>
+    <Banner data ={BannerData2}/>
 
   </div>
   )
