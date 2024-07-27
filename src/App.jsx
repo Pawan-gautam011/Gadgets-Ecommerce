@@ -9,6 +9,7 @@ import Products from "./components/Products/Products"
 import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png"
 import Blogs from "./components/Blogs/Blogs"
 import Partners from "./components/Partners/Partners"
+import Footer from "./components/Footer/Footer"
 
 const BannerData  = {
   discount:"30% OFF",
@@ -34,7 +35,6 @@ const BannerData2  = {
 function App() {
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
-
     <Navbar/>
     <Hero/>
     <Category/>
@@ -44,13 +44,12 @@ function App() {
     <Products/>
     <Banner data ={BannerData2}/>
     <Blogs/>
-    <Partners />
+    <Partners/>
+    <Footer/>
 
   </div>
   )
   
-
-
 
 }
 
